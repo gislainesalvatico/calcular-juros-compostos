@@ -17,7 +17,7 @@ namespace GMS.Api2CalculaJuros.Business.Services
             {
                 client.BaseAddress = new Uri("https://localhost:44344/");
 
-                var responseMessage = await client.GetAsync("api/taxaJuros");
+                var responseMessage = await client.GetAsync("taxaJuros");
                 var response = await responseMessage.Content.ReadAsStringAsync();
 
                 if (responseMessage.IsSuccessStatusCode)
