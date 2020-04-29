@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GMS.Api2CalculaJuros</name>
+    </assembly>
+    <members>
+        <member name="M:GMS.Api2CalculaJuros.Controllers.CalculaJurosController.CalculaJurosAsync(System.Decimal,System.Int32)">
+            <summary>
+            Método responsável por realizar o cálculo de juros.
+            </summary>
+            <param name="valorInicial">Valor Inicial.</param>
+            <param name="meses">Meses.</param>
+            <returns>Resultado do cálculo de juros.</returns>
+        </member>
+        <member name="M:GMS.Api2CalculaJuros.Controllers.ShowMeTheCodeController.ShowMeTheCode">
+            <summary>
+            Retorna a url de onde encontra-se o fonte desse projeto no github.
+            </summary>
+            <returns>Url de acesso ao código fonte desse projeto.</returns>
+        </member>
+    </members>
+</doc>
